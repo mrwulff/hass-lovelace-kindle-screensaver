@@ -6,7 +6,7 @@ services:
     environment:
       - HA_BASE_URL=http://192.168.0.156:8123
       - HA_SCREENSHOT_URL=/lovelace/wow?kiosk
-      - HA_ACCESS_TOKEN=l4YhNK_8lCvwxDMI_s7ex0njt0ENgi4I4D_q3l_MVns
+      - HA_ACCESS_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkODc4OTY0MWE4OTM0NmRkOWEzMDU2YjQ0OTk2MzIwYSIsImlhdCI6MTYxMjMwODI3NCwiZXhwIjoxOTI3NjY4Mjc0fQ.l4YhNK_8lCvwxDMI_s7ex0njt0ENgi4I4D_q3l_MVns
       - CRON_JOB=* * * * *
       - RENDERING_TIMEOUT=30000
       - RENDERING_DELAY=0
